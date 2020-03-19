@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Skip Youtube Ads",
+  "description": "Removes Youtube promos & banners, and skips ads.",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*"
+      ],
+      "js": [
+        "skip.js"
+      ]
+    }
+  ]
+}
