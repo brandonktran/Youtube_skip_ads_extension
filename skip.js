@@ -38,6 +38,6 @@ function skipAd() {
 
 }
 
-setInterval(skipAd, 1000);
+setInterval(skipAd, 500);
 
 console.log("skip extension enabled");
